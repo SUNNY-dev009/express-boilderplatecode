@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello Vue");
+  res.send("Hello Next");
 });
 
 app.listen(4000, () => {
