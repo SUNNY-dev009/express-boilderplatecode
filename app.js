@@ -5,7 +5,7 @@ app.get("/", (req, res) => {
   res.send("chaning change.. ");
 });
 
-app.get("/test", (req, res) => {
+app.get("/test1", (req, res) => {
   res.send("added logs.. ");
   console.log("Adding logs to check...")
 });
