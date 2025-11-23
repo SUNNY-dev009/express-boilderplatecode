@@ -6,8 +6,10 @@ app.get("/", (req, res) => {
 });
 
 app.get("/test", (req, res) => {
+  console.log("call start")
   res.send("<h1>Hello Sunny!</h1>");
 });
+
 
 app.listen(4000, () => {
   console.log("server started");
