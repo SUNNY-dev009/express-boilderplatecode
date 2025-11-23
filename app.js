@@ -5,9 +5,8 @@ app.get("/", (req, res) => {
   res.send("chaning change fab.. ");
 });
 
-app.get("/test1", (req, res) => {
-  res.send("added logs.. ");
-  console.log("Adding logs to check...")
+app.get("/test", (req, res) => {
+  res.send("<h1>Hello Sunny!</h1>");
 });
 
 app.listen(4000, () => {
