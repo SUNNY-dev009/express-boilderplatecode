@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 
 app.get("/test", (req, res) => {
   console.log("call start")
-  res.send("<h1>Hello Dev!</h1>");
+  res.send("<h1>Hello Imp!</h1>");
 });
 
 
