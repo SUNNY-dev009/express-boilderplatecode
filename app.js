@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 
 app.get("/test", (req, res) => {
   console.log("add gggs")
-res.send("<h1>Boom webhook caldl!!</h1>");
+res.send("<h1>Boom webhook calling!!</h1>");
 });
 
 
