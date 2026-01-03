@@ -11,6 +11,14 @@ app.get("/test", (req, res) => {
 res.send("<h1>❤️🚀❤️Boom webhook calling!!</h1>");
 });
 
+app.get("/products", async(req, res) => {
+  const pr =await  fetch("https://dummyjson.com/products");
+  const rs = await pr.json()
+  res.send(rs)
+});
+
+
+
 
 app.listen(4000, () => {
   console.log("server started");
