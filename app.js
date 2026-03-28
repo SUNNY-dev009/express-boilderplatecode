@@ -6,10 +6,6 @@ app.get("/posts", (req, res) => {
   res.send("chaning change fab.. ");
 });
 
-app.get("/test", (req, res) => {
-  console.log("🚀 added Logs ❤️")
-res.send("<h1>❤️🚀❤️Boom webhook calling!!</h1>");
-});
 
 app.get("/products", async(req, res) => {
   const pr =await  fetch("https://dummyjson.com/products");
